@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/nileshwanare1/GitHub_Jenkins_Docker_AWS-EC2.git'
+                git branch: 'main', url: 'https://github.com/nileshwanare1/GitHub_Jenkins_Docker_AWS-EC2.git'
             }
         }
 
